@@ -296,8 +296,8 @@ and modify as you like.
     ```
     git push origin master
     ```
-
-***NOTE:*** now origin refers to your fork of your partners repository
+    
+Now origin refers to your fork of your partners repository
 
 [item]: # (/slide)
 [item]: # (slide)
@@ -391,7 +391,7 @@ docker images
 [item]: # (/slide)
 [item]: # (slide)
 
-# Running a container
+## Running a container
 
 Launching a container based on the python:slim image
 
