@@ -81,7 +81,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 * Create a new file inside project directory
     * hello.py
         ```
-        print(Hello, World!)
+        print("Hello, World!")
         ```
 * Run the file using PyCharm
 
@@ -114,9 +114,9 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 [item]: # (/slide)
 [item]: # (slide)
 
-## Install Github
+## Install Git
 
-* Run the Github installer you downloaded earlier
+* Run the Gitb installer you downloaded earlier
 * Mac users may already have git installed (check *git help* from a terminal session)
 
 [item]: # (/slide)
@@ -199,6 +199,11 @@ git commit -m "added hello.py"
 * There now exists two copies of your hello-world repository
     * Your local laptop
     * github.com
+    
+[item]: # (/slide)
+[item]: # (slide)
+
+## Remotes
 
 * The copy on github.com is referred to as a *remote* view the configuration of
  this with the following command
@@ -213,8 +218,7 @@ git commit -m "added hello.py"
 
    [branch "master"]
    ```
-* Branches will be covered lately, but the we can now reference the URL of our repository on github with the
-  origin keyword.
+* Branches will be covered lately, but the we can now reference the URL of our repository on github with the origin keyword.
 
 [item]: # (/slide)
 [item]: # (slide)
@@ -292,8 +296,8 @@ and modify as you like.
     ```
     git push origin master
     ```
-
-***NOTE:*** now origin refers to your fork of your partners repository
+    
+Now origin refers to your fork of your partners repository
 
 [item]: # (/slide)
 [item]: # (slide)
@@ -387,7 +391,7 @@ docker images
 [item]: # (/slide)
 [item]: # (slide)
 
-# Running a container
+## Running a container
 
 Launching a container based on the python:slim image
 
@@ -419,12 +423,12 @@ f8ba379a6780        python:slim                "echo hello"             2 minute
 [item]: # (/slide)
 [item]: # (slide)
 
-# Running a container interactively
+## Running a container interactively
 
 Now we will run the following command
+
 ```
 docker run -i -t python:slim /bin/sh
-
 ```
 This tells docker to start a container interactively (-i) and to allocate a tty session (-t).  These options can also
 be grouped together (-it)
@@ -440,16 +444,19 @@ exit
 [item]: # (/slide)
 [item]: # (slide)
 
-# Containers are ephemeral
+## Containers are ephemeral
 
 Explore the following commands
 
 Start a new container
+
 ```
 docker run -it python:slim /bin/sh
 
 ```
+
 Create a new file
+
 ```
 touch /myfile.txt
 ```
@@ -469,7 +476,7 @@ exit
 [item]: # (/slide)
 [item]: # (slide)
 
-# Containers are ephemeral (cont)
+## Containers are ephemeral (cont)
 
 Start another container using the same image
 ```
@@ -485,7 +492,7 @@ ls /myfile.txt
 [item]: # (/slide)
 [item]: # (slide)
 
-# Containers are ephemeral (cont)
+## Containers are ephemeral (cont)
 
 Each container is based off the image, to have changes persist, we need to create a new image for this
 
@@ -497,7 +504,7 @@ There are two ways to create an image
 [item]: # (slide)
 
 
-# Creating an image from an existing container
+## Creating an image from an existing container
 
 * Start a new container from the image
     ```
@@ -523,7 +530,7 @@ ee3d5d30a555        python:slim           "/bin/sh"                11 seconds ag
 [item]: # (/slide)
 [item]: # (slide)
 
-# Creating an image from an existing container(cont)
+## Creating an image from an existing container(cont)
 
 * Create a new image using `docker commit`
 
@@ -564,7 +571,7 @@ ls /myfile.txt
 [item]: # (/slide)
 [item]: # (slide)
 
-# So What??!
+## So What??!
 
 Let's use the git and docker skills we've acquired to do something a bit more useful
 
@@ -583,6 +590,10 @@ Let's use the git and docker skills we've acquired to do something a bit more us
     ```
     docker build -t reattivio .
     ```
+
+[item]: # (/slide)
+[item]: # (slide)
+## So What??! (cont)
 
 
 4. Launch a container using your new image
