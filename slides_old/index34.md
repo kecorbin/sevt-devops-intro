@@ -1,5 +1,5 @@
 
-## Creating an image from an existing container(cont)
+# Creating an image from an existing container(cont)
 
 * Create a new image using `docker commit`
 

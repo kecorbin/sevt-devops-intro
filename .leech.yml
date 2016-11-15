@@ -1,0 +1,14 @@
+---
+input_file: ./README.md
+output_directory: ./slides
+output_filename: index
+reveal:
+  template:
+  template_color: FFFFFF
+  intro: 
+  intro_title: DEVOPS TOOLS - INTRODUCTION
+  intro_author: Chad Peterson
+  intro_color: 049FD9
+  closing:
+  closing_message: Go Build Something!
+  closing_color: 049FD9

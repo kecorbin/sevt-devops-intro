@@ -1,5 +1,5 @@
 
-## Running a container
+# Running a container
 
 Launching a container based on the python:slim image
 

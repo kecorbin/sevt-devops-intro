@@ -1,17 +1,14 @@
 
-## Containers are ephemeral
+# Containers are ephemeral
 
 Explore the following commands
 
 Start a new container
-
 ```
 docker run -it python:slim /bin/sh
 
 ```
-
 Create a new file
-
 ```
 touch /myfile.txt
 ```

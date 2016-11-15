@@ -21,6 +21,6 @@
     ```
     git push origin master
     ```
-    
-Now origin refers to your fork of your partners repository
+
+***NOTE:*** now origin refers to your fork of your partners repository
 

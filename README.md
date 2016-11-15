@@ -116,8 +116,8 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 
 ## Install Git
 
-* Run the Gitb installer you downloaded earlier
-* Mac users may already have git installed (check *git help* from a terminal session)
+* Run the Git installer you downloaded earlier
+* Mac users may already have git installed (check ```git help``` from a terminal session)
 
 [item]: # (/slide)
 [item]: # (slide)
@@ -127,10 +127,10 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 * Register a github.com account if you haven't already
 * Create a new repository called "USERID-hello-world"
 
-**NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
 
+**Make sure and substitute your userid into this step, otherwise you will have problems later**
 
-![new repo](addurl)
+[https://github.com/chapeter/chapeter-hello-world](https://github.com/chapeter/chapeter-hello-world)
 
 [item]: # (/slide)
 [item]: # (slide)
@@ -138,7 +138,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 ## Initializing your local repository
 
 * Open a terminal window and navigate to your "USERID-hello-wold" project
-* Follow the quickstart instructions from Github Quick Start to accomplish the following
+* Follow the quickstart instructions from Github Quick Start
 * Refresh the page
 * Do you see your code?  Why not?
 
@@ -149,6 +149,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 ## Checking the status of your repository
 
 * Run the following command from your terminal
+
     ```
     git status
 
@@ -176,7 +177,7 @@ A commit contains the following information
 [item]: # (/slide)
 [item]: # (slide)
 
-## Commit (cont'd')
+## Commit (cont'd)
 
 Make sure git has been configured with your contact information
 ```
@@ -218,7 +219,7 @@ git commit -m "added hello.py"
 
    [branch "master"]
    ```
-* Branches will be covered lately, but the we can now reference the URL of our repository on github with the origin keyword.
+* Branches will be covered later, but the we can now reference the URL of our repository on github with the origin keyword.
 
 [item]: # (/slide)
 [item]: # (slide)

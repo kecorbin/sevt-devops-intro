@@ -1,6 +1,6 @@
 
 
-## Creating an image from an existing container
+# Creating an image from an existing container
 
 * Start a new container from the image
     ```

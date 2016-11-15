@@ -5,7 +5,7 @@
 * Create a new file inside project directory
     * hello.py
         ```
-        print("Hello, World!")
+        print(Hello, World!)
         ```
 * Run the file using PyCharm
 

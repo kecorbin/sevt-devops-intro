@@ -1,10 +1,10 @@
 
-## Running a container interactively
+# Running a container interactively
 
 Now we will run the following command
-
 ```
 docker run -i -t python:slim /bin/sh
+
 ```
 This tells docker to start a container interactively (-i) and to allocate a tty session (-t).  These options can also
 be grouped together (-it)
