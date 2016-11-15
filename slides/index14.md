@@ -1,5 +1,5 @@
 
-## Commit
+### Commit
 
 A *commit* creates a record of changes to your repository.
 

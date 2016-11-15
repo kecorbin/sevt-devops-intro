@@ -1,5 +1,5 @@
 
-## Commit (cont'd')
+### Commit (cont'd')
 
 Make sure git has been configured with your contact information
 ```

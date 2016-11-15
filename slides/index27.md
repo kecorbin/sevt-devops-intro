@@ -1,15 +1,10 @@
 
-# Managing Images
+### Images
 
-Lets start by downloading a common image called python:slim
+An image is an immutable file that's essentially a snapshot of a container.
 
-```
-docker pull python:slim
-```
-
-You can verify the images you have available locally with the following command
-
-```
-docker images
-```
+* Created with the `docker build` command
+* Used to instantiate a container using `docker run`
+* Can be downloaded from docker hub using the `docker pull command`
+* Consist of a set of layers (changes)
 

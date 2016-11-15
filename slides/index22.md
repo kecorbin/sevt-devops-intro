@@ -1,10 +1,12 @@
 
+### Pull requests
 
-## Merging
+When you've made changes to your fork of someone elses repository, you can request that the incorporate those
+changes into their repository as well by opening a *pull request*
 
-When a pull request is open, if the changes are acceptable the request can be merged into your code base
-
-* Using github, navigate to **your** hello-world repository
-* You should see a pull request from your partner
-* Merge the pull request into your repository
+* Navigate to **your** fork of your partners repository
+* Make sure that the hello.py file shows the commit that you made
+* Click on the "New Pull Request"
+* Review the proposed changes, and make sure the line you added is there
+* Click on the "Create New Pull Request Button"
 

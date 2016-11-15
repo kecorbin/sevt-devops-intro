@@ -1,5 +1,5 @@
 
-## IDE Components
+### IDE Components
 
 * Source Code Editor
 * Version Control Integration

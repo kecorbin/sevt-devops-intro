@@ -1,5 +1,5 @@
 
 ## Devops Tools - Introduction
 
-Kevin Corbin
+Chad Peterson
 

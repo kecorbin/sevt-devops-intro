@@ -1,33 +1,18 @@
 
-# So What??!
+### Creating an image from a Dockerfile
 
-Let's use the git and docker skills we've acquired to do something a bit more useful
-
-1. Use git to clone the following repo
-
-    https://github.com/datacenter/reattivio
-
-2. Change to the reattivio directory
-
+* Create a file called `Dockerfile` in your project directory
     ```
-    cd reattivio
+    FROM python:slim
+    COPY . /app
+    CMD python /app/hello.py
     ```
-
-3. Create a docker image for this project
-
+* Build an image from your Dockerfile
     ```
-    docker build -t reattivio .
+    docker build -t myimage .
     ```
-
-
-4. Launch a container using your new image
+* Start a new container using your image
     ```
-    docker run -p 8080:80 reattivio
+    docker run myimage
     ```
-
-    The -p flag is specifying a port mapping from 8080 on your local maching to port 80 in the running container
-
-5. Launch your browser and point to http://127.0.0.1:8080
-
-    You can point the tool to
 

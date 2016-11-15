@@ -1,5 +1,5 @@
 
-## Downloads
+### Downloads
 
 Please start the following downloads for your platform (Mac/Windows)
 

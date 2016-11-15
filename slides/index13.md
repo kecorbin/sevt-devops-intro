@@ -1,5 +1,5 @@
 
-## Checking the status of your repository
+### Checking the status of your repository
 
 * Run the following command from your terminal
     ```

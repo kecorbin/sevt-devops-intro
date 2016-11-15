@@ -1,26 +1,16 @@
 
-## Contributing!!!
+### Cloning
 
-* Open your partners repository using PyCharm
-* Add the following line to the hello.py file
-    ```
-    print("Put me in coach, I'm ready to play!")
-    ```
-* Add the modified version of hello.py to your staging index
+* In the previous exercises, we created a local repository, and created a copy on a remote server (github)
 
+* Cloning is the opposite, we will take a remote repository and copy it to our local development
+
+* Run the following commands:
     ```
-    git add hello.py
-    ```
-* Commit your change
-    ```
-    git commit -m "modified hello.py"
+    cd ~
+    git clone https://github.com/LAB-PARTNERS-USERID/USERID-hello-world forked-repo
 
     ```
-* Push your change
 
-    ```
-    git push origin master
-    ```
-
-***NOTE:*** now origin refers to your fork of your partners repository
+    This command creates a new directory called forked-repo which contains your partners version of the hello-world project
 

@@ -1,6 +1,6 @@
 
 
-## Github
+### Github
 
 * Web based repository (repo) hosting service
 * Adds additional features such as

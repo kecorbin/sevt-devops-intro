@@ -1,5 +1,5 @@
 
-## Creating a repository on github
+### Creating a repository on github
 
 * Register a github.com account if you haven't already
 * Create a new repository called "USERID-hello-world"

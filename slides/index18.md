@@ -1,14 +1,15 @@
 
-## Forking
 
-Forking allows you to create your own copy of someone elses repository which you have full control to use
-and modify as you like.
+### Push
 
-* Navigate to your lab partners github repostiory
+Our two copies of the hello-world repository are not sync'd automatically, to sync them
+we need to *push* our local commits to the *remote* copy stored on github
 
-    * https://github.com/LAB-PARTNERS-USERID/USERID-hello-world
+We will push our local changes to the *origin* (github) on the *master* branch
 
-* Click on the fork button in the upper right hand corner of the screen
+```
+git push origin master
+```
 
-* You now have a copy of their repository in your github account
+Refresh the github page and verify that your hello.py file exists
 

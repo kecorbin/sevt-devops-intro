@@ -1,7 +1,7 @@
 
 
 
-## Git
+### Git
 
 * Most widely used version control system in the world
 * Distributed
