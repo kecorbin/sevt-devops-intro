@@ -138,7 +138,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 **NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
 
 
-![new repo](http://github.com/kecorbin/sevt-devops-intro/images/newrepo.png)
+![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
 
 [item]: # (/slide)
 
@@ -162,7 +162,7 @@ git config --global user.email you@somedomain.com
 * Open a terminal window and navigate to your "USERID-hello-wold" project
 * Follow the quickstart instructions from Github Quick Start to accomplish the following
 
-![new repo](http://github.com/kecorbin/sevt-devops-intro/images/setup.png)
+![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
 
 * Refresh the page
 * Do you see your code?  Why not?
