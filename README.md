@@ -71,6 +71,15 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 
 
 [item]: # (/slide)
+
+[item]: # (slide)
+# Windows Users
+Ensure you check the "Add Python to PATH" box!!!
+![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python27.png)
+![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python35.jpg)
+
+[item]: # (/slide)
+
 [item]: # (slide)
 
 ## PyCharm Installation
@@ -217,7 +226,7 @@ git commit -m "added hello.py"
 * There now exists two copies of your hello-world repository
     * Your local laptop
     * github.com
-    
+
 [item]: # (/slide)
 [item]: # (slide)
 
@@ -315,7 +324,7 @@ and modify as you like.
     ```
     git push origin master
     ```
-    
+
 Now origin refers to your fork of your partners repository
 
 [item]: # (/slide)
@@ -625,7 +634,7 @@ Let's use the git and docker skills we've acquired to do something a bit more us
 5. Launch your browser and point to http://127.0.0.1:8080
 
     You can point the tool to your lab APIC controller if you have one avaiable, if not you can use the DevNet Sandbox by using the following:
-    
+
  * Address: sandboxapicdc.cisco.com
  * Username: admin
  * Password: 1vtG@lw@y
