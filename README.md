@@ -17,15 +17,23 @@
 
 Please start the following downloads for your platform (Mac/Windows)
 
+* Python - 2.7 or 3.5
+    * Already installed on Mac
+    * [https://www.python.org/downloads/](https://www.python.org/downloads/)
+    * Google "python download"
 * PyCharm Community Edition
     * https://www.jetbrains.com/pycharm/download/
     * Google "pycharm download"
 * Git
     * https://git-scm.com/downloads
     * Google "git download"
-* Docker for Windows / Mac > 1.12
+* Docker
     * https://docs.docker.com/engine/installation/
     * Google "docker download"
+      * Mac - Docker for Mac
+      * Windows 10 - Docker for Windows
+      * Windows 7/8 - Docker Toolbox
+      * (guide written for Docker for X, not toolbox)
 
 [item]: # (/slide)
 [item]: # (slide)
@@ -117,7 +125,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 ## Install Git
 
 * Run the Gitb installer you downloaded earlier
-* Mac users may already have git installed (check *git help* from a terminal session)
+* Mac users may already have git installed (check ```git help``` from a terminal session)
 
 [item]: # (/slide)
 [item]: # (slide)
@@ -130,15 +138,32 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 **NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
 
 
-![new repo](addurl)
+![new repo](http://github.com/kecorbin/sevt-devops-intro/images/newrepo.png)
 
 [item]: # (/slide)
+
+[item]: # (slide)
+## Setup your git Credentials
+Make sure git has been configured with your contact information
+
+```
+git config --global user.name 'Your Name'
+git config --global user.email you@somedomain.com
+
+```
+
+
+[item]: # (/slide)
+
 [item]: # (slide)
 
 ## Initializing your local repository
 
 * Open a terminal window and navigate to your "USERID-hello-wold" project
 * Follow the quickstart instructions from Github Quick Start to accomplish the following
+
+![new repo](http://github.com/kecorbin/sevt-devops-intro/images/setup.png)
+
 * Refresh the page
 * Do you see your code?  Why not?
 
@@ -177,13 +202,6 @@ A commit contains the following information
 [item]: # (slide)
 
 ## Commit (cont'd')
-
-Make sure git has been configured with your contact information
-```
-git config --global user.name 'Your Name'
-git config --global user.email you@somedomain.com
-
-```
 
 Commit hello.py to your local repository
 
@@ -263,6 +281,7 @@ and modify as you like.
 * Cloning is the opposite, we will take a remote repository and copy it to our local development
 
 * Run the following commands:
+
     ```
     cd ~
     git clone https://github.com/LAB-PARTNERS-USERID/USERID-hello-world forked-repo
