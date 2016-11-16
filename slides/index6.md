@@ -1,8 +1,4 @@
-
-### PyCharm Installation
-
-* Install PyCharm Community Edition
-    * https://www.jetbrains.com/pycharm/download/
-    * Google "pycharm download"
-
+# Windows Users
+Ensure you check the "Add Python to PATH" box!!!
+![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python27.png)
 

@@ -1,12 +1,14 @@
 
-### Pull requests
+## Forking
 
-When you've made changes to your fork of someone elses repository, you can request that the incorporate those
-changes into their repository as well by opening a *pull request*
+Forking allows you to create your own copy of someone elses repository which you have full control to use
+and modify as you like.
 
-* Navigate to **your** fork of your partners repository
-* Make sure that the hello.py file shows the commit that you made
-* Click on the "New Pull Request"
-* Review the proposed changes, and make sure the line you added is there
-* Click on the "Create New Pull Request Button"
+* Navigate to your lab partners github repostiory
+
+    * https://github.com/LAB-PARTNERS-USERID/USERID-hello-world
+
+* Click on the fork button in the upper right hand corner of the screen
+
+* You now have a copy of their repository in your github account
 

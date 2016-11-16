@@ -1,26 +1,15 @@
 
-### Contributing!!!
 
-* Open your partners repository using PyCharm
-* Add the following line to the hello.py file
-    ```
-    print("Put me in coach, I'm ready to play!")
-    ```
-* Add the modified version of hello.py to your staging index
+## Push
 
-    ```
-    git add hello.py
-    ```
-* Commit your change
-    ```
-    git commit -m "modified hello.py"
+Our two copies of the hello-world repository are not sync'd automatically, to sync them
+we need to *push* our local commits to the *remote* copy stored on github
 
-    ```
-* Push your change
+We will push our local changes to the *origin* (github) on the *master* branch
 
-    ```
-    git push origin master
-    ```
-    
-Now origin refers to your fork of your partners repository
+```
+git push origin master
+```
+
+Refresh the github page and verify that your hello.py file exists
 

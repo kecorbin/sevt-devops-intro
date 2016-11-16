@@ -1,9 +1,19 @@
 
-### Containers are ephemeral (cont)
+## Running a container interactively
 
-Each container is based off the image, to have changes persist, we need to create a new image for this
+Now we will run the following command
 
-There are two ways to create an image
-* Commit an existing container
-* Using a Dockerfile
+```
+docker run -i -t python:slim /bin/sh
+```
+This tells docker to start a container interactively (-i) and to allocate a tty session (-t).  These options can also
+be grouped together (-it)
+
+You now have a container running, and have an interactive shell
+
+You can exit the container, by closing the shell using:
+
+```
+exit
+```
 

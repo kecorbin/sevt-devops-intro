@@ -76,6 +76,12 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 # Windows Users
 Ensure you check the "Add Python to PATH" box!!!
 ![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python27.png)
+
+[item]: # (/slide)
+
+[item]: # (slide)
+# Windows Users
+Ensure you check the "Add Python to PATH" box!!!
 ![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python35.jpg)
 
 [item]: # (/slide)

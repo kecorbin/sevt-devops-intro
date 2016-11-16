@@ -1,19 +1,10 @@
 
-### Running a container interactively
+# Images
 
-Now we will run the following command
+An image is an immutable file that's essentially a snapshot of a container.
 
-```
-docker run -i -t python:slim /bin/sh
-```
-This tells docker to start a container interactively (-i) and to allocate a tty session (-t).  These options can also
-be grouped together (-it)
-
-You now have a container running, and have an interactive shell
-
-You can exit the container, by closing the shell using:
-
-```
-exit
-```
+* Created with the `docker build` command
+* Used to instantiate a container using `docker run`
+* Can be downloaded from docker hub using the `docker pull command`
+* Consist of a set of layers (changes)
 

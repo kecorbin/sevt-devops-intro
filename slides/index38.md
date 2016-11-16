@@ -1,21 +1,19 @@
-### So What??! (cont)
 
+## Creating an image from an existing container(cont)
 
-4. Launch a container using your new image
-    ```
-    docker run -p 8080:80 reattivio
-    ```
+* Create a new image using `docker commit`
 
-    The -p flag is specifying a port mapping from 8080 on your local maching to port 80 in the running container
+```
+docker commit ee3d5d30a555 myimage
+```
 
-5. Launch your browser and point to http://127.0.0.1:8080
-
-    You can point the tool to your lab APIC controller if you have one avaiable, if not you can use
-    the DevNet Sandbox by using the following
-
-    * Address: sandboxapicdc.cisco.com
-    * Username: admin
-    * Password: 1vtG@lw@y
-    * Use HTTPS
-
+* Verify the image shows up in `docker images`
+* Start another container with the following command
+```
+docker run -it myimage /bin/sh
+```
+* Verify the file is present the new container
+```
+ls /myfile.txt
+```
 

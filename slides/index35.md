@@ -1,18 +1,13 @@
 
-### Creating an image from an existing container(cont)
+## Containers are ephemeral (cont)
 
-* Create a new image using `docker commit`
+Start another container using the same image
+```
+docker run -it python:slim /bin/sh
 
 ```
-docker commit ee3d5d30a555 myimage
-```
 
-* Verify the image shows up in `docker images`
-* Start another container with the following command
-```
-docker run -it myimage /bin/sh
-```
-* Verify the file is present the new container
+Check for the file we created
 ```
 ls /myfile.txt
 ```

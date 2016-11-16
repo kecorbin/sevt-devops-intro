@@ -1,13 +1,11 @@
 
+## Creating a new project
 
-### Github
-
-* Web based repository (repo) hosting service
-* Adds additional features such as
-    * Collaboration
-    * Bug Tracking
-    * Feature Requests
-    * Project Wikis
-* 18M+ Users
-* 50M+ Projects
+* Create a new project called hello-world
+* Create a new file inside project directory
+    * hello.py
+        ```
+        print("Hello, World!")
+        ```
+* Run the file using PyCharm
 

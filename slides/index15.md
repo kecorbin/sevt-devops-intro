@@ -1,16 +1,12 @@
 
-### Commit (cont'd')
+## Initializing your local repository
 
-Make sure git has been configured with your contact information
-```
-git config --global user.name 'Your Name'
-git config --global user.email you@somedomain.com
+* Open a terminal window and navigate to your "USERID-hello-wold" project
+* Follow the quickstart instructions from Github Quick Start to accomplish the following
 
-```
+![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
 
-Commit hello.py to your local repository
+* Refresh the page
+* Do you see your code?  Why not?
 
-```
-git commit -m "added hello.py"
-```
 

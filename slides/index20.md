@@ -1,16 +1,18 @@
 
-### Cloning
+## Remotes
 
-* In the previous exercises, we created a local repository, and created a copy on a remote server (github)
-
-* Cloning is the opposite, we will take a remote repository and copy it to our local development
-
-* Run the following commands:
-    ```
-    cd ~
-    git clone https://github.com/LAB-PARTNERS-USERID/USERID-hello-world forked-repo
+* The copy on github.com is referred to as a *remote* view the configuration of
+ this with the following command
 
     ```
+    cat .git/config
+    ```
+* Note the following lines
 
-    This command creates a new directory called forked-repo which contains your partners version of the hello-world project
+   ```
+   [remote "origin"]
+
+   [branch "master"]
+   ```
+* Branches will be covered lately, but the we can now reference the URL of our repository on github with the origin keyword.
 

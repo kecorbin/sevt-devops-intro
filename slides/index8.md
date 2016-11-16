@@ -1,9 +1,8 @@
 
+## PyCharm Installation
 
+* Install PyCharm Community Edition
+    * https://www.jetbrains.com/pycharm/download/
+    * Google "pycharm download"
 
-### Git
-
-* Most widely used version control system in the world
-* Distributed
-* Originally Developed by Linus Torvalds (Linux)
 

@@ -1,18 +1,9 @@
 
-### Remotes (cont)
+## Commit
 
-* The copy on github.com is referred to as a *remote* view the configuration of
- this with the following command
+A *commit* creates a record of changes to your repository.
 
-    ```
-    cat .git/config
-    ```
-* Note the following lines
-
-   ```
-   [remote "origin"]
-
-   [branch "master"]
-   ```
-* Branches will be covered lately, but the we can now reference the URL of our repository on github with the origin keyword.
+A commit contains the following information
+* All files which have been added or changed in the staging index
+* Username and Email address of the user who made the changes
 

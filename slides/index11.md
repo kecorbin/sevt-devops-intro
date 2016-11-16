@@ -1,11 +1,13 @@
 
-### Creating a repository on github
 
-* Register a github.com account if you haven't already
-* Create a new repository called "USERID-hello-world"
+## Github
 
-**NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
-
-
-![new repo](addurl)
+* Web based repository (repo) hosting service
+* Adds additional features such as
+    * Collaboration
+    * Bug Tracking
+    * Feature Requests
+    * Project Wikis
+* 18M+ Users
+* 50M+ Projects
 

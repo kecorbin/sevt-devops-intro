@@ -1,6 +1,9 @@
 
-### Install Git
 
-* Run the Gitb installer you downloaded earlier
-* Mac users may already have git installed (check *git help* from a terminal session)
+
+## Git
+
+* Most widely used version control system in the world
+* Distributed
+* Originally Developed by Linus Torvalds (Linux)
 

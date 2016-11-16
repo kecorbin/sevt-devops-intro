@@ -1,18 +1,9 @@
 
-### Creating an image from a Dockerfile
+## Containers are ephemeral (cont)
 
-* Create a file called `Dockerfile` in your project directory
-    ```
-    FROM python:slim
-    COPY . /app
-    CMD python /app/hello.py
-    ```
-* Build an image from your Dockerfile
-    ```
-    docker build -t myimage .
-    ```
-* Start a new container using your image
-    ```
-    docker run myimage
-    ```
+Each container is based off the image, to have changes persist, we need to create a new image for this
+
+There are two ways to create an image
+* Commit an existing container
+* Using a Dockerfile
 

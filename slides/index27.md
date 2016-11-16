@@ -1,10 +1,12 @@
 
-### Images
+# Congratulations!!!!
 
-An image is an immutable file that's essentially a snapshot of a container.
+You have now successfully done the following:
 
-* Created with the `docker build` command
-* Used to instantiate a container using `docker run`
-* Can be downloaded from docker hub using the `docker pull command`
-* Consist of a set of layers (changes)
+* Created a repository
+* Committed code
+* Pushed Commits to github
+* Forked a repository
+* Created a pull requested
+* Merged a pull request
 

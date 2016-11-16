@@ -1,12 +1,26 @@
 
-### Congratulations!!!!
+## Contributing!!!
 
-You have now successfully done the following:
+* Open your partners repository using PyCharm
+* Add the following line to the hello.py file
+    ```
+    print("Put me in coach, I'm ready to play!")
+    ```
+* Add the modified version of hello.py to your staging index
 
-* Created a repository
-* Committed code
-* Pushed Commits to github
-* Forked a repository
-* Created a pull requested
-* Merged a pull request
+    ```
+    git add hello.py
+    ```
+* Commit your change
+    ```
+    git commit -m "modified hello.py"
+
+    ```
+* Push your change
+
+    ```
+    git push origin master
+    ```
+
+Now origin refers to your fork of your partners repository
 

@@ -1,30 +1,15 @@
 
-### Containers are ephemeral
+# Managing Images
 
-Explore the following commands
-
-Start a new container
+Lets start by downloading a common image called python:slim
 
 ```
-docker run -it python:slim /bin/sh
-
+docker pull python:slim
 ```
 
-Create a new file
+You can verify the images you have available locally with the following command
 
 ```
-touch /myfile.txt
-```
-
-Verify the file was created
-```
-ls /myfile.txt
-```
-
-Exit the container
-
-```
-exit
-
+docker images
 ```
 

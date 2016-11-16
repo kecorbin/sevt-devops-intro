@@ -1,11 +1,4 @@
-
-### Creating a new project
-
-* Create a new project called hello-world
-* Create a new file inside project directory
-    * hello.py
-        ```
-        print("Hello, World!")
-        ```
-* Run the file using PyCharm
+# Windows Users
+Ensure you check the "Add Python to PATH" box!!!
+![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python35.jpg)
 

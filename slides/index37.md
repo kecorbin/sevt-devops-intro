@@ -1,21 +1,25 @@
 
-### So What??!
 
-Let's use the git and docker skills we've acquired to do something a bit more useful
+## Creating an image from an existing container
 
-1. Use git to clone the following repo
-
-    https://github.com/datacenter/reattivio
-
-2. Change to the reattivio directory
+* Start a new container from the image
+    ```
+    docker run -it python:slim /bin/sh
 
     ```
-    cd reattivio
+* Create a new file
+    ```
+    touch /myfile.txt
     ```
 
-3. Create a docker image for this project
+* Exit the container
+    ```
+    exit
+    ```
+* Get the container id from the `docker ps -a` command
 
-    ```
-    docker build -t reattivio .
-    ```
+```
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS                           PORTS                    NAMES
+ee3d5d30a555        python:slim           "/bin/sh"                11 seconds ago      Exited (0) 3 seconds ago
+```
 

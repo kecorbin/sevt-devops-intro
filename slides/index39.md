@@ -1,11 +1,18 @@
 
-### Conclusion
+# Creating an image from a Dockerfile
 
-You should now have a basic understanding, and working environment with the following technologies
-
- * Git
- * Docker
- * PyCharm IDE
-
-Checkout Hank Prestons session “DevOps and Network Programmability – Leveraging Code"
+* Create a file called `Dockerfile` in your project directory
+    ```
+    FROM python:slim
+    COPY . /app
+    CMD python /app/hello.py
+    ```
+* Build an image from your Dockerfile
+    ```
+    docker build -t myimage .
+    ```
+* Start a new container using your image
+    ```
+    docker run myimage
+    ```
 

@@ -1,9 +1,6 @@
 
-### Initializing your local repository
+## Install Git
 
-* Open a terminal window and navigate to your "USERID-hello-wold" project
-* Follow the quickstart instructions from Github Quick Start to accomplish the following
-* Refresh the page
-* Do you see your code?  Why not?
-
+* Run the Gitb installer you downloaded earlier
+* Mac users may already have git installed (check ```git help``` from a terminal session)
 

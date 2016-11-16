@@ -1,17 +1,11 @@
 
-### Checking the status of your repository
+## Creating a repository on github
 
-* Run the following command from your terminal
-    ```
-    git status
+* Register a github.com account if you haven't already
+* Create a new repository called "USERID-hello-world"
 
-    ```
-* Files must be explicitly checked in / tracked by git
-* Add your hello.py to version control
+**NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
 
-    ```
-    git add hello.py
 
-    ```
-    This adds the file to the *staging index* which means it will be added in the next commit
+![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
 
