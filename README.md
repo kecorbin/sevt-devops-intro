@@ -15,12 +15,8 @@
 
 ## Downloads
 
-Please start the following downloads for your platform (Mac/Windows)
+Please start the following downloads for your platform
 
-* Python - 2.7 or 3.5
-    * Already installed on Mac
-    * [https://www.python.org/downloads/](https://www.python.org/downloads/)
-    * Google "python download"
 * PyCharm Community Edition
     * https://www.jetbrains.com/pycharm/download/
     * Google "pycharm download"
@@ -36,6 +32,23 @@ Please start the following downloads for your platform (Mac/Windows)
       * (guide written for Docker for X, not toolbox)
 
 [item]: # (/slide)
+
+[item]: # (slide)
+
+## Downloads Windows extras(cont.)
+
+If you are on Windows 7 or 10 you will also want the following
+
+* Python - 2.7 or 3.5
+    * Already installed on Mac
+    * [https://www.python.org/downloads/](https://www.python.org/downloads/)
+* Powershell 3
+    * [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)
+* 7zip
+    * [www.7-zip.org/download.html](www.7-zip.org/download.html)
+
+[item]: # (/slide)
+
 [item]: # (slide)
 
 ## Integrated Development Environment (IDE)
@@ -72,7 +85,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 
 [item]: # (/slide)
 
-[item]: # (slide)
+[item]: # (slide)Â
 
 ## Python Install - Windows Users 2.7
 Ensure you check the "Add Python to PATH" box!!!
