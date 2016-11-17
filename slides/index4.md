@@ -1,9 +1,5 @@
 
-## Integrated Development Environment (IDE)
-
-An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer
-programmers for software development.
-
-https://en.wikipedia.org/wiki/Integrated_development_environment
-
+## Python Install - Windows Users 2.7
+Ensure you check the "Add Python to PATH" box!!!
+![Pyton2.7](images/win-python27.png)
 

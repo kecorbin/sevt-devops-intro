@@ -1,5 +1,10 @@
 
-## Python Install - Windows Users 2.7
-Ensure you check the "Add Python to PATH" box!!!
-![Pyton2.7](images/win-python27.png)
+## IDE Components
+
+* Source Code Editor
+* Version Control Integration
+* Build / Deployment tools
+* Debugging Tools
+* Code completion
+* Static Code Analysis
 

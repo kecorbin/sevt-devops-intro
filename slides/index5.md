@@ -1,10 +1,5 @@
 
-## IDE Components
-
-* Source Code Editor
-* Version Control Integration
-* Build / Deployment tools
-* Debugging Tools
-* Code completion
-* Static Code Analysis
+## Python Install - Windows Users 3.5
+Ensure you check the "Add Python to PATH" box!!!
+![Python3.5](images/win-python35.jpg)
 
