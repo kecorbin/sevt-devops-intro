@@ -35,7 +35,7 @@ Please start the following downloads for your platform
 
 [item]: # (slide)
 
-## Downloads Windows extras(cont.)
+## Downloads(cont.)
 
 If you are on Windows 7 or 10 you will also want the following
 
@@ -85,7 +85,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 
 [item]: # (/slide)
 
-[item]: # (slide)Â
+[item]: # (slide)
 
 ## Python Install - Windows Users 2.7
 Ensure you check the "Add Python to PATH" box!!!
