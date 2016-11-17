@@ -65,6 +65,19 @@ Ensure you check the "Add Python to PATH" box!!!
 
 [item]: # (/slide)
 
+
+[item]: # (slide)
+## Windows 7zip
+After installing 7zip add 7zip to your environment variables
+
+```
+set PATH=%PATH%;C:\Program Files\7-Zip\
+echo %PATH%
+7z
+```
+[item]: # (/slide)
+
+
 [item]: # (slide)
 
 ## Integrated Development Environment (IDE)
