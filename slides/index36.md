@@ -1,14 +1,30 @@
 
-## Containers are ephemeral (cont)
+## Containers are ephemeral
 
-Start another container using the same image
+Explore the following commands
+
+Start a new container
+
 ```
 docker run -it python:slim /bin/sh
 
 ```
 
-Check for the file we created
+Create a new file
+
+```
+touch /myfile.txt
+```
+
+Verify the file was created
 ```
 ls /myfile.txt
+```
+
+Exit the container
+
+```
+exit
+
 ```
 

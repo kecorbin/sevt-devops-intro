@@ -1,11 +1,6 @@
 
-## Creating a repository on github
+## Install Git
 
-* Register a github.com account if you haven't already
-* Create a new repository called "USERID-hello-world"
-
-**NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
-
-
-![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
+* Run the Gitb installer you downloaded earlier
+* Mac users may already have git installed (check ```git help``` from a terminal session)
 

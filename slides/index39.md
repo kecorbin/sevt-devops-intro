@@ -1,19 +1,25 @@
 
-## Creating an image from an existing container(cont)
 
-* Create a new image using `docker commit`
+## Creating an image from an existing container
+
+* Start a new container from the image
+    ```
+    docker run -it python:slim /bin/sh
+
+    ```
+* Create a new file
+    ```
+    touch /myfile.txt
+    ```
+
+* Exit the container
+    ```
+    exit
+    ```
+* Get the container id from the `docker ps -a` command
 
 ```
-docker commit ee3d5d30a555 myimage
-```
-
-* Verify the image shows up in `docker images`
-* Start another container with the following command
-```
-docker run -it myimage /bin/sh
-```
-* Verify the file is present the new container
-```
-ls /myfile.txt
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS                           PORTS                    NAMES
+ee3d5d30a555        python:slim           "/bin/sh"                11 seconds ago      Exited (0) 3 seconds ago
 ```
 

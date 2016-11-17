@@ -1,17 +1,12 @@
 
-## Checking the status of your repository
+## Initializing your local repository
 
-* Run the following command from your terminal
-    ```
-    git status
+* Open a terminal window and navigate to your "USERID-hello-wold" project
+* Follow the quickstart instructions from Github Quick Start to accomplish the following
 
-    ```
-* Files must be explicitly checked in / tracked by git
-* Add your hello.py to version control
+![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
 
-    ```
-    git add hello.py
+* Refresh the page
+* Do you see your code?  Why not?
 
-    ```
-    This adds the file to the *staging index* which means it will be added in the next commit
 

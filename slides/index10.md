@@ -1,11 +1,8 @@
 
-## Creating a new project
+## PyCharm Installation
 
-* Create a new project called hello-world
-* Create a new file inside project directory
-    * hello.py
-        ```
-        print("Hello, World!")
-        ```
-* Run the file using PyCharm
+* Install PyCharm Community Edition
+    * https://www.jetbrains.com/pycharm/download/
+    * Google "pycharm download"
+
 

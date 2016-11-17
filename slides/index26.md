@@ -1,12 +1,26 @@
 
-## Pull requests
+## Contributing!!!
 
-When you've made changes to your fork of someone elses repository, you can request that the incorporate those
-changes into their repository as well by opening a *pull request*
+* Open your partners repository using PyCharm
+* Add the following line to the hello.py file
+    ```
+    print("Put me in coach, I'm ready to play!")
+    ```
+* Add the modified version of hello.py to your staging index
 
-* Navigate to **your** fork of your partners repository
-* Make sure that the hello.py file shows the commit that you made
-* Click on the "New Pull Request"
-* Review the proposed changes, and make sure the line you added is there
-* Click on the "Create New Pull Request Button"
+    ```
+    git add hello.py
+    ```
+* Commit your change
+    ```
+    git commit -m "modified hello.py"
+
+    ```
+* Push your change
+
+    ```
+    git push origin master
+    ```
+
+Now origin refers to your fork of your partners repository
 
