@@ -1,15 +1,18 @@
 
+## Remotes
 
-## Push
+* The copy on github.com is referred to as a *remote* view the configuration of
+ this with the following command
 
-Our two copies of the hello-world repository are not sync'd automatically, to sync them
-we need to *push* our local commits to the *remote* copy stored on github
+    ```
+    cat .git/config
+    ```
+* Note the following lines
 
-We will push our local changes to the *origin* (github) on the *master* branch
+   ```
+   [remote "origin"]
 
-```
-git push origin master
-```
-
-Refresh the github page and verify that your hello.py file exists
+   [branch "master"]
+   ```
+* Branches will be covered lately, but the we can now reference the URL of our repository on github with the origin keyword.
 

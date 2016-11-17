@@ -1,9 +1,13 @@
 
-## Integrated Development Environment (IDE)
+## Downloads(cont.)
 
-An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer
-programmers for software development.
+If you are on Windows 7 or 10 you will also want the following
 
-https://en.wikipedia.org/wiki/Integrated_development_environment
-
+* Python - 2.7 or 3.5
+    * Already installed on Mac
+    * [https://www.python.org/downloads/](https://www.python.org/downloads/)
+* Powershell 3
+    * [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)
+* 7zip
+    * [www.7-zip.org/download.html](www.7-zip.org/download.html)
 

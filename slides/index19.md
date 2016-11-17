@@ -1,7 +1,9 @@
 
-## Remotes
+## Commit (cont'd')
 
-* There now exists two copies of your hello-world repository
-    * Your local laptop
-    * github.com
+Commit hello.py to your local repository
+
+```
+git commit -m "added hello.py"
+```
 

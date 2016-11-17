@@ -390,6 +390,9 @@ You have now successfully done the following:
 
 [item]: # (/slide)
 
+##Learn more
+* [https://github.com/imapex-training/mod_adv_git](https://github.com/imapex-training/mod_adv_git)
+
 
 [item]: # (slide)
 
@@ -672,6 +675,8 @@ You should now have a basic understanding, and working environment with the foll
  * Docker
  * PyCharm IDE
 
-Checkout Hank Prestons session “DevOps and Network Programmability – Leveraging Code"
+Now what?
+* Hank Prestons session “DevOps and Network Programmability – Leveraging Code"
+* IMAPEX training [https://github.com/imapex-training](https://github.com/imapex-training)
 
 [item]: # (/slide)

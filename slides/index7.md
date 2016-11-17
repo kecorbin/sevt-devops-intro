@@ -1,5 +1,5 @@
 
-## Python Install - Windows Users 3.5
+## Python Install - Windows Users 2.7
 Ensure you check the "Add Python to PATH" box!!!
-![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python35.jpg)
+![Pyton2.7](images/win-python27.png)
 

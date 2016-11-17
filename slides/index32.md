@@ -1,30 +1,15 @@
 
-## Running a container
+# Managing Images
 
-Launching a container based on the python:slim image
-
-```
-docker run -ti python:slim echo hello
+Lets start by downloading a common image called python:slim
 
 ```
-This command starts a new container, runs the `echo hello` and exits
-
-You can see a list of containers which are currently running using the following command
-
-```
-docker ps
-```
-Because the container we started has already exited it is not listed using this command alone, to see all
-containers, add teh --all flag
-
-```
-docker ps --all
+docker pull python:slim
 ```
 
-You should see something similar to the following
+You can verify the images you have available locally with the following command
 
 ```
-CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS                      PORTS                    NAMES
-f8ba379a6780        python:slim                "echo hello"             2 minutes ago       Exited (0) 2 minutes ago
+docker images
 ```
 
