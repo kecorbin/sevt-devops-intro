@@ -76,7 +76,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 
 ## Python Install - Windows Users 2.7
 Ensure you check the "Add Python to PATH" box!!!
-![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python27.png)
+![Pyton2.7](images/win-python27.png)
 
 [item]: # (/slide)
 
@@ -84,7 +84,7 @@ Ensure you check the "Add Python to PATH" box!!!
 
 ## Python Install - Windows Users 3.5
 Ensure you check the "Add Python to PATH" box!!!
-![](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/win-python35.jpg)
+![Python3.5](images/win-python35.jpg)
 
 [item]: # (/slide)
 
