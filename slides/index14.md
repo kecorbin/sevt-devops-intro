@@ -1,6 +1,13 @@
 
-## Install Git
 
-* Run the Gitb installer you downloaded earlier
-* Mac users may already have git installed (check ```git help``` from a terminal session)
+## Github
+
+* Web based repository (repo) hosting service
+* Adds additional features such as
+    * Collaboration
+    * Bug Tracking
+    * Feature Requests
+    * Project Wikis
+* 18M+ Users
+* 50M+ Projects
 

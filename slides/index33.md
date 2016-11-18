@@ -1,10 +1,10 @@
 
-# Images
 
-An image is an immutable file that's essentially a snapshot of a container.
+# Docker installation
 
-* Created with the `docker build` command
-* Used to instantiate a container using `docker run`
-* Can be downloaded from docker hub using the `docker pull command`
-* Consist of a set of layers (changes)
+* Install Docker from the installer you downloaded already (hopefully)
+* Verify your installation using the following command
+    ```
+    docker info
+    ```
 

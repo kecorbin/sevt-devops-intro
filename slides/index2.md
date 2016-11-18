@@ -1,19 +1,8 @@
+## Goals
 
-## Downloads
-
-Please start the following downloads for your platform
-
-* PyCharm Community Edition
-    * https://www.jetbrains.com/pycharm/download/
-    * Google "pycharm download"
-* Git
-    * https://git-scm.com/downloads
-    * Google "git download"
-* Docker
-    * https://docs.docker.com/engine/installation/
-    * Google "docker download"
-      * Mac - Docker for Mac
-      * Windows 10 - Docker for Windows
-      * Windows 7/8 - Docker Toolbox
-      * (guide written for Docker for X, not toolbox)
+ This session will focus on getting your laptops ready to demonstrate a series of network programmability tools and use cases
+ with their customers. Specifically, you will leave with the following installed and working
+ * Git
+ * Docker
+ * PyCharm IDE
 

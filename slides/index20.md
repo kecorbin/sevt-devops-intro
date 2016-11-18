@@ -1,9 +1,17 @@
 
-## Commit
+## Checking the status of your repository
 
-A *commit* creates a record of changes to your repository.
+* Run the following command from your terminal
+    ```
+    git status
 
-A commit contains the following information
-* All files which have been added or changed in the staging index
-* Username and Email address of the user who made the changes
+    ```
+* Files must be explicitly checked in / tracked by git
+* Add your hello.py to version control
+
+    ```
+    git add hello.py
+
+    ```
+    This adds the file to the *staging index* which means it will be added in the next commit
 

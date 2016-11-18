@@ -1,8 +1,5 @@
-## Windows 7zip
-After installing 7zip add 7zip to your environment variables
 
-```
-set PATH=%PATH%;C:\Program Files\7-Zip\
-echo %PATH%
-7z
-```
+## Python Install - Windows Users 3.5
+Ensure you check the "Add Python to PATH" box!!!
+![Python3.5](images/win-python35.jpg)
+

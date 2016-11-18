@@ -2,6 +2,15 @@
 # DevOps/Network Programmability - Introductory Laptop Setup
 
 [item]: # (slide)
+
+![](http://imapex.io/images/imapex_standing_text_sm.png)
+
+### Brought to you by [imapex.io](http://imapex.io)
+
+[item]: # (/slide)
+
+
+[item]: # (slide)
 ## Goals
 
  This session will focus on getting your laptops ready to demonstrate a series of network programmability tools and use cases

@@ -1,13 +1,19 @@
 
-## Downloads(cont.)
+## Downloads
 
-If you are on Windows 7 or 10 you will also want the following
+Please start the following downloads for your platform
 
-* Python - 2.7 or 3.5
-    * Already installed on Mac
-    * [https://www.python.org/downloads/](https://www.python.org/downloads/)
-* Powershell v3 or higher
-    * [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)
-* 7zip
-    * [www.7-zip.org/download.html](www.7-zip.org/download.html)
+* PyCharm Community Edition
+    * https://www.jetbrains.com/pycharm/download/
+    * Google "pycharm download"
+* Git
+    * https://git-scm.com/downloads
+    * Google "git download"
+* Docker
+    * https://docs.docker.com/engine/installation/
+    * Google "docker download"
+      * Mac - Docker for Mac
+      * Windows 10 - Docker for Windows
+      * Windows 7/8 - Docker Toolbox
+      * (guide written for Docker for X, not toolbox)
 

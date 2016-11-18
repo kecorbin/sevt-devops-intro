@@ -1,10 +1,11 @@
-## Setup your git Credentials
-Make sure git has been configured with your contact information
 
-```
-git config --global user.name 'Your Name'
-git config --global user.email you@somedomain.com
+## Creating a repository on github
 
-```
+* Register a github.com account if you haven't already
+* Create a new repository called "USERID-hello-world"
 
+**NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
+
+
+![new repo](images/setup.png)
 

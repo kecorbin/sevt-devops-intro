@@ -1,9 +1,8 @@
+## Windows 7zip
+After installing 7zip add 7zip to your environment variables
 
-## Integrated Development Environment (IDE)
-
-An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer
-programmers for software development.
-
-https://en.wikipedia.org/wiki/Integrated_development_environment
-
-
+```
+set PATH=%PATH%;C:\Program Files\7-Zip\
+echo %PATH%
+7z
+```

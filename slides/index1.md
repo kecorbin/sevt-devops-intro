@@ -1,8 +1,5 @@
-## Goals
 
- This session will focus on getting your laptops ready to demonstrate a series of network programmability tools and use cases
- with their customers. Specifically, you will leave with the following installed and working
- * Git
- * Docker
- * PyCharm IDE
+![](http://imapex.io/images/imapex_standing_text_sm.png)
+
+### Brought to you by [imapex.io](http://imapex.io)
 

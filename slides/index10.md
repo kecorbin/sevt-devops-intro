@@ -1,8 +1,10 @@
 
-## PyCharm Installation
+## Popular IDE's (Python)
 
-* Install PyCharm Community Edition
-    * https://www.jetbrains.com/pycharm/download/
-    * Google "pycharm download"
+* **Pycharm**
+* Eclipse
+* Atom
+* Sublime
+* Komodo
 
 

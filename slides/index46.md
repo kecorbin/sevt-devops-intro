@@ -1,13 +1,10 @@
 
-# Conclusion
+5. Launch your browser and point to http://127.0.0.1:8080
 
-You should now have a basic understanding, and working environment with the following technologies
+    You can point the tool to your lab APIC controller if you have one avaiable, if not you can use the DevNet Sandbox by using the following:
 
- * Git
- * Docker
- * PyCharm IDE
-
-Now what?
-* Hank Prestons session “DevOps and Network Programmability – Leveraging Code"
-* IMAPEX training [https://github.com/imapex-training](https://github.com/imapex-training)
+ * Address: sandboxapicdc.cisco.com
+ * Username: admin
+ * Password: 1vtG@lw@y
+ * Use HTTPS
 
