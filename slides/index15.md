@@ -7,5 +7,5 @@
 **NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
 
 
-![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
+![new repo](images/setup.png)
 

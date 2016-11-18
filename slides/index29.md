@@ -1,12 +1,10 @@
 
-# Congratulations!!!!
 
-You have now successfully done the following:
+## Merging
 
-* Created a repository
-* Committed code
-* Pushed Commits to github
-* Forked a repository
-* Created a pull requested
-* Merged a pull request
+When a pull request is open, if the changes are acceptable the request can be merged into your code base
+
+* Using github, navigate to **your** hello-world repository
+* You should see a pull request from your partner
+* Merge the pull request into your repository
 

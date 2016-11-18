@@ -1,17 +1,14 @@
 
-## Cloning
+## Forking
 
-* In the previous exercises, we created a local repository, and created a copy on a remote server (github)
+Forking allows you to create your own copy of someone elses repository which you have full control to use
+and modify as you like.
 
-* Cloning is the opposite, we will take a remote repository and copy it to our local development
+* Navigate to your lab partners github repostiory
 
-* Run the following commands:
+    * https://github.com/LAB-PARTNERS-USERID/USERID-hello-world
 
-    ```
-    cd ~
-    git clone https://github.com/LAB-PARTNERS-USERID/USERID-hello-world forked-repo
+* Click on the fork button in the upper right hand corner of the screen
 
-    ```
-
-    This command creates a new directory called forked-repo which contains your partners version of the hello-world project
+* You now have a copy of their repository in your github account
 

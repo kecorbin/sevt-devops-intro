@@ -181,7 +181,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 **NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
 
 
-![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
+![new repo](images/setup.png)
 
 [item]: # (/slide)
 
@@ -205,7 +205,12 @@ git config --global user.email you@somedomain.com
 * Open a terminal window and navigate to your "USERID-hello-wold" project
 * Follow the quickstart instructions from Github Quick Start to accomplish the following
 
-![new repo](https://github.com/kecorbin/sevt-devops-intro/blob/master/images/setup.png)
+![new repo](images/setup.png)
+
+[item]: # (/slide)
+
+[item]: # (slide)
+## Initializing your local repository(cont.)
 
 * Refresh the page
 * Do you see your code?  Why not?
@@ -472,7 +477,7 @@ You can see a list of containers which are currently running using the following
 docker ps
 ```
 Because the container we started has already exited it is not listed using this command alone, to see all
-containers, add teh --all flag
+containers, add the --all flag
 
 ```
 docker ps --all
@@ -667,6 +672,10 @@ Let's use the git and docker skills we've acquired to do something a bit more us
     ```
 
     The -p flag is specifying a port mapping from 8080 on your local maching to port 80 in the running container
+
+[item]: # (/slide)
+
+[item]: # (slide)
 
 5. Launch your browser and point to http://127.0.0.1:8080
 

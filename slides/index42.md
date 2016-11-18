@@ -1,21 +1,18 @@
 
-## So What??!
+# Creating an image from a Dockerfile
 
-Let's use the git and docker skills we've acquired to do something a bit more useful
-
-1. Use git to clone the following repo
-
-    https://github.com/datacenter/reattivio
-
-2. Change to the reattivio directory
-
+* Create a file called `Dockerfile` in your project directory
     ```
-    cd reattivio
+    FROM python:slim
+    COPY . /app
+    CMD python /app/hello.py
     ```
-
-3. Create a docker image for this project
-
+* Build an image from your Dockerfile
     ```
-    docker build -t reattivio .
+    docker build -t myimage .
+    ```
+* Start a new container using your image
+    ```
+    docker run myimage
     ```
 

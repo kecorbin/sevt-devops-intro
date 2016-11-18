@@ -1,19 +1,21 @@
-## So What??! (cont)
 
+## So What??!
 
-4. Launch a container using your new image
+Let's use the git and docker skills we've acquired to do something a bit more useful
+
+1. Use git to clone the following repo
+
+    https://github.com/datacenter/reattivio
+
+2. Change to the reattivio directory
+
     ```
-    docker run -p 8080:80 reattivio
+    cd reattivio
     ```
 
-    The -p flag is specifying a port mapping from 8080 on your local maching to port 80 in the running container
+3. Create a docker image for this project
 
-5. Launch your browser and point to http://127.0.0.1:8080
-
-    You can point the tool to your lab APIC controller if you have one avaiable, if not you can use the DevNet Sandbox by using the following:
-
- * Address: sandboxapicdc.cisco.com
- * Username: admin
- * Password: 1vtG@lw@y
- * Use HTTPS
+    ```
+    docker build -t reattivio .
+    ```
 
