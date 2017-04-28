@@ -1,5 +1,5 @@
 
-## DEVOPS TOOLS - INTRODUCTION
+## Devops Tools - Introduction
 
-Chad Peterson
+Laptop Setup
 
