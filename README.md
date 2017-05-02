@@ -182,7 +182,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 [item]: # (/slide)
 [item]: # (slide)
 
-## Creating a repository on github
+## Creating a repository on GitHub (www.github.com)
 
 * Register a github.com account if you haven't already
 * **Create a new repository called "USERID-hello-world" on GitHub website**
@@ -193,6 +193,7 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 
 ![GitHub](images/github_create_repository.png)
 
+## Now switch back to your computer
 ![new repo](images/setup.png)
 
 [item]: # (/slide)
