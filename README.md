@@ -193,7 +193,6 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 
 ![GitHub](images/github_create_repository.png)
 
-## Now switch back to your computer
 ![new repo](images/setup.png)
 
 [item]: # (/slide)
