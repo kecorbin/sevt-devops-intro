@@ -185,12 +185,13 @@ https://en.wikipedia.org/wiki/Integrated_development_environment
 ## Creating a repository on github
 
 * Register a github.com account if you haven't already
-* **Create a new repository called "USERID-hello-world" on github website**
-
-**NOTE:** select Public and make sure to not check the 'Initialize this repository with a README' checkbox ** 
+* **Create a new repository called "USERID-hello-world" on GitHub website**
 
 **NOTE:** make sure and substitute your userid into this step, otherwise you will have problems later
 
+**NOTE:** select Public and make sure to not check the 'Initialize this repository with a README' checkbox ** 
+
+![GitHub](images/github_create_repository.png)
 
 ![new repo](images/setup.png)
 
